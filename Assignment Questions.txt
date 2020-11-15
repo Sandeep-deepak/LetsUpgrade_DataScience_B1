@@ -1,0 +1,135 @@
+** Day 1: **
+
+#Questions 1: 
+Given the following jumbled word, OBANWRI guess the correct English word. 
+A. RANIBOW 
+B. RAINBOW 
+C. BOWRANI 
+D. ROBWANI 
+
+#Questions 2: 
+Write a program which prints “LETS UPGRADE”. (Please note that you have to 
+print in ALL CAPS as given) 
+
+#Questions 3: 
+Write a program that takes cost price and selling price as input and displays whether the transaction is a 
+Profit or a Loss or Neither. 
+INPUT FORMAT 
+The first line contains the cost price. 
+The second line contains the selling price. 
+OUTPUT FORMAT 
+Print "Profit" if the transaction is a profit or "Loss" if it is a loss. If it is neither 
+profit nor loss, print "Neither". (You must not have quotes in your output) 
+
+#Questions 4: 
+Write a program that takes an amount in Euros as input. You need to find its equivalent in 
+Rupees and display it. Assume 1 Euro equals Rs. 80. 
+Please note that you are expected to stick to the given input and output 
+format as in sample test cases. Please don't add any extra lines such as 
+'Enter a number', etc. 
+Your program should take only one number as input and display the output.
+
+** Day 2: **
+
+#Questions 1: 
+Create an empty list. Accept 10 numbers from the user and append to it the list if it is an even number. 
+
+#Questions 2: 
+Create a notebook on LIST COMPREHENSION. This exercise is to put you in a Self learning mode 
+
+#Questions 3: 
+You have seen in the videos how powerful dictionary data structure is. 
+In this assignment, given a number n, you have to write a program that generates a dictionary d which 
+contains (i, i*i), where i is from 1 to n (both included). 
+Then you have to just print this dictionary d. 
+Example: 
+Input: 4 
+will give output as 
+{1: 1, 2: 4, 3: 9, 4: 16} 
+Input Format: 
+Take the number n in a single line. 
+Output Format: 
+Print the dictionary d in a single line. 
+Example: 
+Input: 
+8 
+Output: 
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64} 
+
+#Questions 4: 
+There is a robot which wants to go the charging point to charge itself. 
+The robot moves in a 2-D plane from the original point (0,0). The robot can 
+move toward UP, DOWN, LEFT and RIGHT with given steps. 
+The trace of robot movement is shown as the following: 
+UP 5 
+DOWN 3 
+LEFT 3 
+RIGHT 2 
+Then, the output of the program should be: 
+2 
+The numbers after the direction are steps. 
+Write a program to compute the distance between the current position after 
+a sequence of movement and original point. If the distance is a float, then 
+just print the nearest integer (use round() function for that and then convert 
+it into an integer). 
+Input Format: 
+The first line of the input contains a number n which implies the number of 
+directions to be given. 
+The next n lines contain the direction and the step separated by a space. 
+Output Format: 
+Print the distance from the original position to the current position. 
+Example: 
+Input:  
+4 
+UP 5 
+DOWN 3 
+LEFT 3 
+RIGHT 2 
+Output:  
+2 
+
+** Day 3: **
+
+#Questions 1: 
+Create a numpy array starting from 2 till 50 with a stepsize of 3. 
+
+#Questions 2: 
+Accept two lists of 5 elements each from the user.  
+Convert them to numpy arrays. Concatenate these arrays and print it. Also sort these arrays and print it. 
+
+#Questions 3:
+Write a code snippet to find the dimensions of a ndarray and its size. 
+
+#Questions 4: 
+How to convert a 1D array into a 2D array? Demonstrate with the help of a code snippet 
+Hint: np.newaxis, np.expand_dims
+
+#Questions 5: 
+Consider two square numpy arrays. Stack them vertically and horizontally. 
+Hint: Use vstack(), hstack() 
+
+#Questions 6: 
+How to get unique items and counts of unique items?
+
+** Day 4: **
+
+#Questions 1: 
+How to import pandas and check the version? 
+
+#Questions 2: 
+How to create a series from a numpy array? 
+
+#Questions 3: 
+How to convert the index of a series into a column of a dataframe? 
+
+#Questions 4: 
+Write the code to list all the datasets available in seaborn library. 
+Load the 'mpg' dataset 
+Note: mpg dataset will be read from seaborn module in the manner sir has already shown(provided in the 
+materials folder) 
+
+#Questions 5: 
+Which country origin cars are a part of this dataset? 
+
+Questions 6: 
+Extract the part of the dataframe which contains cars belonging to 'usa' 
